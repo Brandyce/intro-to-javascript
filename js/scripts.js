@@ -62,3 +62,13 @@
 // const num = 55;
 //
 // console.log(num.toString(num));
+
+const firstName = prompt('First name:');
+const lastName = prompt('Last name:');
+console.log(firstName);
+alert(lastName);
+
+const birth = prompt('Birthday?');
+const date = new Date("is this correct?");
+confirm(`Is this your birthday? ${date}`);
+alert(`Your birthday is: ${date}`);
