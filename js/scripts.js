@@ -144,37 +144,204 @@
 //     alert(`Your favorite movie is ${movie[0]} and was made in ${movie[1]}`)
 // });
 
-const todos = [todo1], [todo2], [todo3];
 
-for(let i = 0; i < todos.length; i++) {
-  todos[i] = prompt('What do you need?');
-  todos[i].push(+prompt('How many days will it take?'));
-  console.log(todos);
-};
-
-let longestItem = 0;
-let longestItemIndex = 0;
-for(let i = 0; i < todos.length; i++) {
-  if(todos[i][1] > longestItem) {
-    longestItem = todos[i][1];
-    longestItem = i;
-  }
-};
-console.log(longestItem);
-console.log(longestItemIndex);
-console.log.('Lonstest Item:', todos.splice([longestItemIndex], 1));
-
-for(let item of todos) {
-  todos.push('ez pz');
-  alert(item);
-}
-
-// cosnt item1 = prompt('what do you need to do?');
-// cosnt item2 = prompt('what do you need to do?');
-// cosnt item3 = prompt('what do you need to do?');
+// const item1 = prompt('what do you need to do?');
+// const item2 = prompt('what do you need to do?');
+// const item3 = prompt('what do you need to do?');
 // const todoList = [[item1], [item2], [item3]];
+// console.log(todoList);
+
+// for(let i = 0; i < todoList.length; i++) {
+//   const list = todosList[i].push(+prompt('How many days will it take?')};
+//   console.log(list);
+
+// let longestItem = 0;
+// let longestItemIndex = 0;
+// for(let i = 0; i < todos.length; i++) {
+//   if(todos[i][1] > longestItem) {
+//     longestItem = todos[i][1];
+//     longestItem = i;
+//   }
+// };
+// console.log(longestItem);
+// console.log(longestItemIndex);
+// console.log.('Lonstest Item:', todos.splice([longestItemIndex], 1));
+
+// for(let item of todos) {
+//   todos.push('ez pz');
+//   alert(item);
+// }
+
+
 // for(let i = 0; i < todoList.length; i++) {
   
 // };
 
 // console.log(todoList);
+
+
+
+// const leastFavoriteTeams = ['Yankees', 'Real Madrid', 'Patriots', 'Alabama'];
+// for(let i = 0; i < todos.length; i++) {
+//   leastFavoriteTeams.unshift('Lakers');
+//   leastFavoriteTeams.push('OhioStates');
+//   leastFavoriteTeams.splice(3, 1);
+//   leastFavoriteTeams.unshift('Patriots');
+// }
+// console.log(leastFavoriteTeams)
+// /**
+//  * 1) Add 'Lakers' to the front of the leastFavoriteTeams array
+//  * 2) Add 'Ohio State' to the back of the leastFavoriteTeams array
+//  * 3) Remove 'Patriots' from the leastFavoriteTeams array
+//  * 4) Add 'Patriots' back to the beginning of the leastFavoriteTeams array
+//  * 5) Console log the array to see if you did everything right
+//  *
+//  * -> ['Patriots', 'Lakers', 'Yankees', 'Real Madrid', 'Alabama', 'Ohio State']
+//  */
+
+// const heroes = ['Drow', 'Phantom Lancer', 'Invoker'];
+// for(let hero of heros) {
+  
+// }
+// /**
+//  * 1) Reverse the heroes array
+//  * 2) Add 'Ember Spirit' after the first index of the heroes array
+//  * 3) Remove the last member of the heroes array
+//  * 4) Remove the first item of the heroes array
+//  * 5) Add 'Shadow Fiend' to the beginning of the heroes array
+//  * 6) Console log the array to see if you did everything right
+//  *
+//  * -> ['Shadow Fiend', 'Phantom Lancer', 'Ember Spirit']
+//  */
+
+
+//  function add(a, b) {
+//   console.log(a + b);
+//  };
+//  add(2, 2);
+
+//  function subtract(a, b) {
+//   console.log(a - b);
+//  };
+//  subtract(2, 2);
+
+// console.log(name);
+
+// function logSomething() {
+//   const name = 'Ben';
+//   console.log('name');
+//  };
+
+//  logSomething();
+
+//  const number = 42;
+//  function answerToLife() {
+//    console.log(number);
+//  }
+//  console.log(number);
+//  answerToLife();
+
+//  const add = (a, b) => {
+//    console.log(a + b);
+//  };
+//  add(13242, 3413);
+
+//  const sayName = name => {
+//    console.log(name);
+//  }
+//  sayName('Fido');
+
+//  const cat = 'Celestia';
+//  console.log(cat.substr(2, 2));
+
+//  const age = +prompt('Age for dog');
+//  function convert(age, b) {
+//   console.log(age * 7);
+//    }; 
+//    convert(age);
+
+
+//    function lifeTimeSupply(perDay) {
+//      console.log(80 * perDay);
+//    }
+//    const perDay = prompt('How many cups of coffee do you have a year?');
+//    lifeTimeSupply(perDay);
+//    alert(`You will need ${} to last you until you are 80.`);
+
+
+
+  //  function baseballTeamName(hometown, weatherEvent, animalName) {
+  //   console.log(`The ${hometown, weatherEvent, animalName}`)
+  //  };
+  //  const hometown = prompt('What was your hometown?');
+  //  const weatherEvent = prompt ('What was the last weather event you experienced?');
+  //  const animalName = prompt('Name an animal:');
+
+  //  function baseballTeamName(hometown, weatherEvent, animalName) {
+  //   alert(arr.join(' '));
+  //  };
+
+  //  const arr = ['Coalinga', 'Drought', 'Koalas'];
+
+  // class Person {
+  //   constructor(name) {
+  //     this.name = name;
+  //     this.age = age;
+  //   }
+
+  //   sayName() {
+  //     console.log(this.name);
+  //   }
+  //   howOld() {
+  //     console.log(this.age);
+  //   }
+  // }
+
+  // const ben = new Person('Ben', 29);
+  // const david = new Person('David', 40);
+  // console.log(ben.howOld());
+  // console.log(david.howOld());
+
+  // function getName() {
+  //   const name = prompt('What is your name?');
+  //   if(!name) {
+  //     getName();
+  //   }
+  // }
+  // getName();
+
+  // function number(given) {
+  //  console.log(given * given);
+
+  //   if(!number) {
+  //     return('NaN');
+  //       number();
+  //   }
+  // }
+// const given = +prompt('Give us a number:');
+//  number(given);
+
+
+ const somethin = prompt('tell me somethin:');
+ const newSomethin = somethin.charAt(0).toUpperCase();
+ somethin.substr(1);
+ console.log(newSomethin);
+ console.log(somethin.substr(1));
+ console.log(newSomethin + somethin.substr(1))
+ const period = somethin.endsWith('.');
+ console.log(newSomethin + somethin.substr(1) + period)
+   if (!somethin.endsWith('.')) {
+    somethin.push('.');
+    alert(somethin.join(' '));
+   };
+
+// const palin = prompt("tell me something else:");
+// const drome = palin.length
+// console.log(drome);
+// function half(drome) {
+//   console.log(drome/2);
+// };
+
+// const halves = half(drome);
+// const firstHalf = palin.substr(0, half);
+// const lastHalf = palin.substr(half, half);
